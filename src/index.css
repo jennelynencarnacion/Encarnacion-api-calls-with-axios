@@ -1,0 +1,168 @@
+Header styles
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe Form styles */
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Recipe List styles */
+
+.recipe {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.recipe h3 {
+  margin-top: 0;
+}
+
+.recipe p {
+  margin-bottom: 10px;
+}
+
+.edit-button,.delete-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover,.delete-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Header styles */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Add custom styles for the recipe list */
+
+#recipe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#recipe-list .recipe {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#recipe-list .recipe h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#recipe-list .recipe p {
+  margin-bottom: 5px;
+}
+
+#recipe-list .edit-button,
+#recipe-list .delete-button {
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+/* Add custom styles for the recipe form */
+
+#add-recipe-form {
+  margin-bottom: 20px;
+}
+
+#add-recipe-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#add-recipe-form input[type="text"],
+#add-recipe-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#add-recipe-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-recipe-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
